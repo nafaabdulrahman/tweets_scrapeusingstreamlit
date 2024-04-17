@@ -72,7 +72,7 @@ csv = convert_to_csv(df)
 json = convert_to_json(df)
 
 # Using MongoDB Atlas as a new database to store date(scraped tweets) in collections(scraped_tweets)
-client = pymongo.MongoClient("mongodb+srv://pnrajk:Nataraj1996@cluster0.rlu7bvd.mongodb.net/?retryWrites=true&w=majority")
+client = pymongo.MongoClient("mongodb+srv://nafabardila:Nafa1234@newguvi.dz0nuf9.mongodb.net/?retryWrites=true&w=majority")
 db = client.twitterscraping
 col = db.scraped_tweets
 scr_data = {"Scraped_word" : Hashtag,
