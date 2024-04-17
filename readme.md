@@ -122,7 +122,7 @@ else:
 ```
 ### To run the app, Navigate to the folder which app is present using CLI and run the command
 ``` py
-streamlit run tweets.py
+streamlit run bismy.py
 ```
 ### note
 snscrape is limited working now this is because snscrape searches the Twitter data without any authentication, i.e., it searches for Twitter data without using your email, password, or authentication key. but now, Twitter has restricted searching data without logging in to the Twitter website, i.e., if you log out of your Twitter account on the Twitter website, you will not have a search functionality there. So, snscrape cannot extract the tweets data from the Twitter website as of now. 
